@@ -1,0 +1,74 @@
+File Version listing for gp 0.137
+gpScaleBiasGradient.m  CVS version 1.1 SVN version 3
+gpComputeM.m  CVS version 1.2 SVN version 3
+demSpgp1dGp3.m  SVN version 545
+gpObjectiveGradient.m  CVS version 1.1 SVN version 3
+gpToolboxes.m  CVS version 1.4 SVN version 1407
+gpOptimise.m  CVS version 1.2 SVN version 82
+gpPosteriorVar.m  SVN version 503
+demStickGp1.m  SVN version 327
+gpUpdateKernels.m  CVS version 1.3 SVN version 860
+gpLoadResult.m  SVN version 1522
+gpReadFromFile.m  SVN version 3
+demSilhouetteGp2.m  SVN version 536
+gpGradient.m  CVS version 1.1 SVN version 3
+demSpgp1dPlot.m  CVS version 1.1 SVN version 536
+gpDeconstruct.m  SVN version 536
+demGpTwoSampleLifsh.m  SVN version 907
+gpObjective.m  CVS version 1.1 SVN version 3
+gpMeanFunctionGradient.m  CVS version 1.1 SVN version 178
+gpSubspaceExpandParam.m  SVN version 105
+gpSubspaceCreate.m  SVN version 105
+gpExtractParam.m  CVS version 1.4 SVN version 178
+demGpSample.m  SVN version 118
+gpComputeTranslationLogLikelihood.m  SVN version 857
+demOptimiseGp.m  SVN version 118
+demSilhouetteLinear1.m  SVN version 327
+gpPointLogLikelihood.m  CVS version 1.1 SVN version 3
+demOptimiseGpTutorial.m  SVN version 327
+demSpgp1dGp2.m  SVN version 536
+demInterpolation.m  SVN version 118
+demSpgp1dGp4.m  SVN version 536
+demSpgp1dGp5.m  SVN version 1175
+demGpCovFuncSample.m  SVN version 327
+gpUpdateAD.m  CVS version 1.2 SVN version 498
+demSilhouettePlotTrue.m  SVN version 327
+demSilhouettePlot.m  SVN version 1440
+gpComputeObservationLogLikelihood.m  SVN version 801
+gpExpandParam.m  CVS version 1.3 SVN version 860
+gpSubspaceOut.m  SVN version 105
+gpDisplay.m  CVS version 1.1 SVN version 178
+gpDataIndices.m  CVS version 1.1 SVN version 3
+gpPosteriorGradMeanVar.m  CVS version 1.2 SVN version 178
+gpPosteriorMeanVar.m  CVS version 1.3 SVN version 1018
+demGpTwoSampleLif.m  SVN version 907
+gpWriteResult.m  SVN version 536
+demGpCov2D.m  SVN version 118
+gpPosteriorSample.m  SVN version 133
+gpCovGrads.m  CVS version 1.1 SVN version 180
+gpLogLikeGradients.m  CVS version 1.5 SVN version 498
+demSpgp1dGp1.m  SVN version 545
+demGpTwoSampleEB.m  SVN version 907
+gpOut.m  CVS version 1.1 SVN version 3
+gpBlockIndices.m  CVS version 1.1 SVN version 3
+gpCovGradsTest.m  CVS version 1.1 SVN version 178
+demGpTwoSample.m  SVN version 907
+gpTwoSample.m  SVN version 1018
+gpSubspaceExtractParam.m  SVN version 105
+demSilhouetteGp1.m  SVN version 536
+gpReadFromFID.m  SVN version 860
+demRegression.m  SVN version 118
+gpCreate.m  CVS version 1.5 SVN version 907
+readme.txt  CVS version 1.3 SVN version 1522
+gpComputeAlpha.m  CVS version 1.1 SVN version 178
+gpLogLikelihood.m  CVS version 1.4 SVN version 498
+gpPosteriorGradMeanCovar.m  CVS version 1.2 SVN version 178
+gpTest.m  CVS version 1.3 SVN version 178
+gpWriteToFile.m  SVN version 3
+gpSample.m  SVN version 118
+gpReconstruct.m  SVN version 536
+gpPosteriorMeanCovar.m  CVS version 1.3 SVN version 178
+gpPosteriorMeanCovarTest.m  CVS version 1.1 SVN version 3
+demSilhouetteAverage.m  SVN version 327
+gpSubspaceOptimise.m  SVN version 105
+gpOptions.m  CVS version 1.4 SVN version 498

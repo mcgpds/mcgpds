@@ -1,0 +1,51 @@
+function kern = convolveKernParamInit(kern)
+
+% RBFARD2KERNPARAMINIT RBFARD2 kernel parameter initialisation.
+%
+%	Description:
+%	
+%	
+%	k_d,d'(x_i, x_j) = s_d*s_d'* N(x_i|x_j,P_d+P_d'+Lambda);
+%	
+%	The parameters are sigma2, the process variance (kern.variance), the
+%	diagonal matrix of input scales (kern.inputScales, constrained to be
+%	positive).
+%	
+%	
+%
+%	KERN = RBFARD2KERNPARAMINIT(KERN) initialises the automatic
+%	relevance determination radial basis function kernel structure with
+%	some default parameters.
+%	 Returns:
+%	  KERN - the kernel structure with the default parameters placed in.
+%	 Arguments:
+%	  KERN - the kernel structure which requires initialisation.
+%	
+%	
+%
+%	See also
+%	RBFKERNPARAMINIT, KERNCREATE, KERNPARAMINIT
+
+
+%	Copyright (c) 2004, 2005, 2006 Neil D. Lawrence
+%	Copyright (c) 2009 Michalis K. Titsias
+% 	rbfard2KernParamInit.m SVN version 582
+% 	last update 2011-06-16T07:23:44.000000Z
+
+
+% This parameter is restricted positive.
+% S_d
+kern.S=1*ones(kern.outputDimension,1);
+kern.S=[1;-1];
+% P_d we assume the P_d in different subscript _d are the same 
+kern.P_d=1*ones(kern.outputDimension,kern.inputDimension);
+% kern.P_d = [1,100;1,0.1;];
+kern.P_d = [1,100,1,0.1];
+% Lambda_k
+kern.Lambda_k=1*ones(1,kern.inputDimension);
+kern.nParams = kern.outputDimension +kern.inputDimension+kern.outputDimension*kern.inputDimension;
+
+kern.transforms(1).index = [kern.outputDimension+1:kern.nParams];
+kern.transforms(1).type = optimiDefaultConstraint('positive');
+
+kern.isStationary = true;

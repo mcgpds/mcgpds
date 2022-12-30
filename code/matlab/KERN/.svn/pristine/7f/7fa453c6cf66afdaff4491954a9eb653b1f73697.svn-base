@@ -1,0 +1,11 @@
+function kern = convolveKernExpandParam(kern,params)
+
+%	Copyright (c) 2013 ZhaoJing
+% 	last update 2013-07-29
+startVal=1;
+endVal=kern.inputDimension;
+kern.S=params(1,startVal:endVal);
+startVal=endVal+1;
+endVal=startVal+
+kern.variance = params(1);
+kern.inputScales = params(2:end);
